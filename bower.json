@@ -5,7 +5,7 @@
   "main": "dist/bootstrap.css",
   "themestrap": {
     "name": "Supervillain",
-    "repo": "https://github.com/trumbitta/supervillain"
+    "repo": "https://github.com/trumbitta/bootstrap-theme-supervillain"
   },
   "ignore": [
     "**/.*",
