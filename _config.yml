@@ -1,8 +1,0 @@
-exclude:
-  - README.md
-  - Gruntfile.coffee
-  - bower.json
-  - package.json
-  - LICENSE
-  - node_modules
-  - bower_components
