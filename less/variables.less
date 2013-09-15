@@ -118,23 +118,23 @@
 @btn-default-bg:                 @text-color;
 @btn-default-border:             @blue;
 
-@btn-primary-color:              #fff;
+@btn-primary-color:              lighten(@text-color, 8%);
 @btn-primary-bg:                 @brand-primary;
 @btn-primary-border:             darken(@btn-primary-bg, 5%);
 
-@btn-success-color:              #fff;
+@btn-success-color:              lighten(@text-color, 8%);
 @btn-success-bg:                 @brand-success;
 @btn-success-border:             darken(@btn-success-bg, 5%);
 
-@btn-warning-color:              #fff;
+@btn-warning-color:              lighten(@text-color, 8%);
 @btn-warning-bg:                 @brand-warning;
 @btn-warning-border:             darken(@btn-warning-bg, 5%);
 
-@btn-danger-color:               #fff;
+@btn-danger-color:               lighten(@text-color, 8%);
 @btn-danger-bg:                  @brand-danger;
 @btn-danger-border:              darken(@btn-danger-bg, 5%);
 
-@btn-info-color:                 #fff;
+@btn-info-color:                 lighten(@text-color, 8%);
 @btn-info-bg:                    @brand-info;
 @btn-info-border:                darken(@btn-info-bg, 5%);
 
@@ -173,7 +173,7 @@
 @dropdown-fallback-border:       @blue;
 @dropdown-divider-bg:            @blue-dark;
 
-@dropdown-link-active-color:     #fff;
+@dropdown-link-active-color:     lighten(@text-color, 8%);
 @dropdown-link-active-bg:        @component-active-bg;
 
 @dropdown-link-color:            @blue-darker;
@@ -255,7 +255,7 @@
 
 // Navbar links
 @navbar-default-link-color:                @brand-primary;
-@navbar-default-link-hover-color:          #fff;
+@navbar-default-link-hover-color:          lighten(@text-color, 8%);
 @navbar-default-link-hover-bg:             transparent;
 @navbar-default-link-active-color:         @text-color;
 @navbar-default-link-active-bg:            darken(@navbar-default-bg, 6.5%);
@@ -281,7 +281,7 @@
 @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
-@navbar-inverse-link-color:                 #fff;
+@navbar-inverse-link-color:                 lighten(@text-color, 8%);
 @navbar-inverse-link-hover-color:           @text-color;
 @navbar-inverse-link-hover-bg:              transparent;
 @navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;
@@ -297,13 +297,13 @@
 // Inverted navbar search
 // Normal navbar needs no special styles or vars
 @navbar-inverse-search-bg:                  lighten(@navbar-inverse-bg, 25%);
-@navbar-inverse-search-bg-focus:            #fff;
+@navbar-inverse-search-bg-focus:            lighten(@text-color, 8%);
 @navbar-inverse-search-border:              @navbar-inverse-bg;
 @navbar-inverse-search-placeholder-color:   #ccc;
 
 // Inverted navbar toggle
 @navbar-inverse-toggle-hover-bg:            #333;
-@navbar-inverse-toggle-icon-bar-bg:         #fff;
+@navbar-inverse-toggle-icon-bar-bg:         lighten(@text-color, 8%);
 @navbar-inverse-toggle-border-color:        #333;
 
 
@@ -316,8 +316,8 @@
 @nav-disabled-link-color:                   @text-muted;
 @nav-disabled-link-hover-color:             transparent;
 
-@nav-open-link-hover-color:                 #fff;
-@nav-open-caret-border-color:               #fff;
+@nav-open-link-hover-color:                 lighten(@text-color, 8%);
+@nav-open-caret-border-color:               lighten(@text-color, 8%);
 
 // Tabs
 @nav-tabs-border-color:                     @blue-dark;
@@ -333,7 +333,7 @@
 
 // Pills
 @nav-pills-active-link-hover-bg:            @component-active-bg;
-@nav-pills-active-link-hover-color:         #fff;
+@nav-pills-active-link-hover-color:         lighten(@text-color, 8%);
 
 
 // Pagination
@@ -345,7 +345,7 @@
 @pagination-hover-bg:                  @blue-light;
 
 @pagination-active-bg:                 @brand-primary;
-@pagination-active-color:              #fff;
+@pagination-active-color:              lighten(@text-color, 8%);
 
 @pagination-disabled-color:            @blue-darker;
 
@@ -390,7 +390,7 @@
 // Tooltips
 // -------------------------
 @tooltip-max-width:           200px;
-@tooltip-color:               #fff;
+@tooltip-color:               lighten(@text-color, 8%);
 @tooltip-bg:                  #000;
 
 @tooltip-arrow-width:         5px;
@@ -399,7 +399,7 @@
 
 // Popovers
 // -------------------------
-@popover-bg:                          #fff;
+@popover-bg:                          lighten(@text-color, 8%);
 @popover-max-width:                   276px;
 @popover-border-color:                rgba(0,0,0,.2);
 @popover-fallback-border-color:       #ccc;
@@ -407,7 +407,7 @@
 @popover-title-bg:                    darken(@popover-bg, 3%);
 
 @popover-arrow-width:                 10px;
-@popover-arrow-color:                 #fff;
+@popover-arrow-color:                 lighten(@text-color, 8%);
 
 @popover-arrow-outer-width:           (@popover-arrow-width + 1);
 @popover-arrow-outer-color:           rgba(0,0,0,.25);
@@ -435,7 +435,7 @@
 @modal-title-padding:         15px;
 @modal-title-line-height:     @line-height-base;
 
-@modal-content-bg:                             #fff;
+@modal-content-bg:                             lighten(@text-color, 8%);
 @modal-content-border-color:                   rgba(0,0,0,.2);
 @modal-content-fallback-border-color:          #999;
 
@@ -505,7 +505,7 @@
 @panel-default-border:        @text-color;
 @panel-default-heading-bg:    @blue;
 
-@panel-primary-text:          #fff;
+@panel-primary-text:          lighten(@text-color, 8%);
 @panel-primary-border:        @brand-primary;
 @panel-primary-heading-bg:    @brand-primary;
 
@@ -529,8 +529,8 @@
 // Thumbnails
 // -------------------------
 @thumbnail-padding:           4px;
-@thumbnail-bg:                @body-bg;
-@thumbnail-border:            @blue-dark;
+@thumbnail-bg:                @text-color;
+@thumbnail-border:            @text-color;
 @thumbnail-border-radius:     @border-radius-base;
 
 @thumbnail-caption-color:     @text-color;
@@ -549,7 +549,7 @@
 @badge-bg:                    @text-color;
 
 @badge-active-color:          @link-color;
-@badge-active-bg:             #fff;
+@badge-active-bg:             lighten(@text-color, 8%);
 
 @badge-font-weight:           bold;
 @badge-line-height:           1;
@@ -568,22 +568,22 @@
 
 @carousel-text-shadow:                        0 1px 2px rgba(0,0,0,.6);
 
-@carousel-control-color:                      #fff;
+@carousel-control-color:                      lighten(@text-color, 8%);
 @carousel-control-width:                      15%;
 @carousel-control-opacity:                    .5;
 @carousel-control-font-size:                  20px;
 
-@carousel-indicator-active-bg:                #fff;
-@carousel-indicator-border-color:             #fff;
+@carousel-indicator-active-bg:                lighten(@text-color, 8%);
+@carousel-indicator-border-color:             lighten(@text-color, 8%);
 
-@carousel-caption-color:                      #fff;
+@carousel-caption-color:                      lighten(@text-color, 8%);
 
 
 // Close
 // ------------------------
 @close-color:                 #000;
 @close-font-weight:           bold;
-@close-text-shadow:           0 1px 0 #fff;
+@close-text-shadow:           0 1px 0 lighten(@text-color, 8%);
 
 
 // Code
